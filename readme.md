@@ -1,6 +1,6 @@
 # This is my Personal Portfolio Webpage / Este es mi portafolio personal
 
-[`Link to de website`](https://natcancein.github.io/portafolioNataliaCancino/)
+[`Link to de website`](https://natcancein.github.io/portafolio/)
 
 Also this is the fifth responsive web design project for Free Code Camp.
 

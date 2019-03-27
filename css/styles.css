@@ -12,10 +12,16 @@ a:hover {
   color: #cc005f;
 }
 
+.picture {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 .picture img {
   width: 100px;
   border-radius: 50%;
- 
+  height: 100px;
+  padding: 15px;
 }
 
 /* header */
@@ -268,17 +274,14 @@ main {
   font-size: 1rem;
   margin: auto;
   line-height: 1.8;
+  text-align: justify;
 }
 
 #biography .a {
-  margin-top: 5vh;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
-  display: grid;
-  grid-template-columns: 2fr 8fr;
-  grid-template-rows: auto;
-  grid-gap: 40px;
+  
 }
 
 #biography .b {
