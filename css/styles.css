@@ -15,9 +15,10 @@ a:hover {
 .picture img {
   width: 100px;
   border-radius: 50%;
+ 
 }
-/* header */
 
+/* header */
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
@@ -275,7 +276,7 @@ main {
   margin-left: 20%;
   margin-right: 20%;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 2fr 8fr;
   grid-template-rows: 25%;
   grid-gap: 40px;
 }
