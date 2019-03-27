@@ -277,7 +277,7 @@ main {
   margin-right: 20%;
   display: grid;
   grid-template-columns: 2fr 8fr;
-  grid-template-rows: 25%;
+  grid-template-rows: auto;
   grid-gap: 40px;
 }
 
