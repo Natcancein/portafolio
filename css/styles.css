@@ -530,13 +530,12 @@ main {
 
 #contact article {
   margin-top: 3vh;
-  width: 20%;
-  margin-left: 40%;
-  margin-right: 40%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-  grid-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto ;
   align-items: center;
   text-align: center;
 }
@@ -546,6 +545,22 @@ main {
   font-size: 1.5rem;
 }
 
+#contact .contactItem{
+  padding: 5px;
+  font-size: 0.6rem;
+  color: gray;
+  font-size: 200;
+}
+
+#contact .contactItem a{
+  font-size: 0.6rem;
+  color: white;
+  font-size: 200;
+}
+
+#contact .contactItem a:hover{
+  color:#cc005f;
+}
 
 #contact a i{
   transition: all 300ms;
@@ -555,5 +570,4 @@ main {
 #contact a:hover i{
   color: #cc005f;
   transform: scale(1.3);
-
 }
