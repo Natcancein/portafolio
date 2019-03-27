@@ -547,13 +547,13 @@ main {
 
 #contact .contactItem{
   padding: 5px;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: gray;
   font-size: 200;
 }
 
 #contact .contactItem a{
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: white;
   font-size: 200;
 }
