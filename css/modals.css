@@ -1,0 +1,86 @@
+#modals{
+    display: none;
+}
+
+.modalItem{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(0%, 0%);
+    
+  }
+
+  .modalItem .text{
+    background-color: white;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-bottom: 20px;
+  }
+
+.modalItem .text img {
+    width: 100%;
+}
+
+.modalItem .text p {
+    color:#6e6e6e;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+}
+
+.modalItem .text .title {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+    color:#464646
+ }
+
+.modalItem .footer{
+    background-color: #000000;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modalItem .footer a {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 0.7rem;
+    color:white;
+    text-transform: uppercase;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.modalItem .footer:hover{
+    background-color: #FF0077;
+}
+
+
+.plainmodal-close i{
+   float: right;
+   -webkit-transition: scale 0.3s linear;
+   -moz-transition: scale 0.3s linear;
+   -o-transition: scale 0.3s linear;
+   transition: scale 0.3s linear;
+}
+
+.plainmodal-close i:hover{
+    float: right;
+    color: #cc005f;
+    transform: scale(1.1);
+ }
+
